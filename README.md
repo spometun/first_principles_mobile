@@ -1,2 +1,2 @@
 # first_principles_www
-For use with Phone Gab build
+For building mobile application(s) with Phone Gap build
