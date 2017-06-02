@@ -13,10 +13,8 @@
   <content src="index.html"/>
 
  <icon src="images/icons/icon.png" />
-	<gap:splash src="images/splash/768x1024.png"/>
 	
  
- <preference name="SplashScreenDelay" value="4000" />
 
  <preference name="permissions" value="none"/>
   <preference name="orientation" value="auto"/>
@@ -36,7 +34,6 @@
   
   
   
-  <gap:plugin name="org.apache.cordova.splashscreen"/>
   <access origin="*"/>
   <plugin name="cordova-plugin-whitelist" version="1"/>
  <!-- <allow-intent href="http://*/*"/> -->
