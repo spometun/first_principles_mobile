@@ -10,14 +10,9 @@
 	Kip McKean
 	</author>
  
-  <content src="studies/en/00_index.html"/>
+  <content src="index.html"/>
 
-  	<icon src="lang/fr/images/icons/icon.png" />
-  
-  	<!-- Android icons -->
-	<icon src="images/icons/icon.png"/>
-	
-	<!-- Android splash -->
+ <icon src="images/icons/icon.png" />
 	<gap:splash src="images/splash/768x1024.png"/>
 	
  
