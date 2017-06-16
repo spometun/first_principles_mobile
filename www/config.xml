@@ -14,17 +14,9 @@
 
  <icon src="images/mobile/icon512x512.png" />
 
-  <!--gap:splash src="images/mobile/splash768x1024.png" gap:platform="android" />
-  <preference name="SplashScreenDelay" value="4000" />
-  <preference name="show-splash-screen-spinner" value="true"/>
-  <preference name="auto-hide-splash-screen" value="true"/>
-  <gap:plugin name="org.apache.cordova.splashscreen"/-->
-
  <plugin name="org.apache.cordova.splashscreen" source="npm" />	
  <preference name="SplashScreenDelay" value="4000" />
- <!--preference name="AutoHideSplashScreen" value="false" /-->
  <preference name="SplashShowOnlyFirstTime" value="false" />
- <!--preference name="SplashScreen" value="splash" /-->
  <splash src="images/mobile/splash768x1024.png"/>
 	
 </widget>
