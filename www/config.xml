@@ -23,6 +23,6 @@
  <plugin name="org.apache.cordova.splashscreen" source="pgb" />	
  <preference name="SplashScreenDelay" value="3000" />
  <preference name="SplashScreen" value="splash" />
- <splash src="images/mobile/splash768x1024.png">
+ <splash src="images/mobile/splash768x1024.png"/>
 	
 </widget>
