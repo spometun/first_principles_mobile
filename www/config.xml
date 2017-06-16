@@ -10,8 +10,12 @@
 	Kip McKean
 	</author>
  
-  <content src="index.html"/>
+ <content src="index.html"/>
 
- <icon src="images/mobile/512x512.png" />
+ <icon src="images/mobile/icon512x512.png" />
+
+ <plugin name="org.apache.cordova.splashscreen" source="pgb" />	
+ <preference name="SplashScreenDelay" value="3000" />
+ <splash src="images/mobile/splash768x1024.png" />
 	
 </widget>
