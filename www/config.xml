@@ -14,17 +14,15 @@
 
  <icon src="images/mobile/icon512x512.png" />
 
-  <gap:splash src="images/mobile/splash768x1024.png" gap:platform="android" />
+  <!--gap:splash src="images/mobile/splash768x1024.png" gap:platform="android" />
   <preference name="SplashScreenDelay" value="4000" />
   <preference name="show-splash-screen-spinner" value="true"/>
   <preference name="auto-hide-splash-screen" value="true"/>
+  <gap:plugin name="org.apache.cordova.splashscreen"/-->
 
-
-
-  <gap:plugin name="org.apache.cordova.splashscreen"/>
-
- <!-- plugin name="org.apache.cordova.splashscreen" source="pgb" />	
+ <plugin name="org.apache.cordova.splashscreen" source="pgb" />	
+ <splash src="images/mobile/splash768x1024.png">
  <preference name="SplashScreenDelay" value="3000" />
- <splash src="images/mobile/splash768x1024.png" /-->
+ <preference name="SplashScreen" value="splash" />
 	
 </widget>
