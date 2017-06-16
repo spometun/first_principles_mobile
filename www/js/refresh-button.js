@@ -1,5 +1,5 @@
 window.addEventListener('load',  () => {
-  const updateContentURL = '../../../api/update_translations.php';
+  const updateContentURL = '../../../api/update_translations.php?lang=' + CUR_LANGUAGE.language;
 
   $(document).ready(() => $('#refresh-button').closest('.ui-btn').show());
 
