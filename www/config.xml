@@ -21,8 +21,8 @@
   <gap:plugin name="org.apache.cordova.splashscreen"/-->
 
  <plugin name="org.apache.cordova.splashscreen" source="pgb" />	
- <splash src="images/mobile/splash768x1024.png">
  <preference name="SplashScreenDelay" value="3000" />
  <preference name="SplashScreen" value="splash" />
+ <splash src="images/mobile/splash768x1024.png">
 	
 </widget>
