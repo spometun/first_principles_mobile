@@ -21,8 +21,10 @@
   <gap:plugin name="org.apache.cordova.splashscreen"/-->
 
  <plugin name="org.apache.cordova.splashscreen" source="npm" />	
- <preference name="SplashScreenDelay" value="3000" />
- <preference name="SplashScreen" value="splash" />
+ <preference name="SplashScreenDelay" value="4000" />
+ <preference name="AutoHideSplashScreen" value="false" />
+ <preference name="SplashShowOnlyFirstTime" value="false" />
+ <!--preference name="SplashScreen" value="splash" /-->
  <splash src="images/mobile/splash768x1024.png"/>
 	
 </widget>
