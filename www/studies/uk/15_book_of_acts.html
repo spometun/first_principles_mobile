@@ -8,11 +8,7 @@
 	<script type="text/javascript" src="../../js/languages.js"></script> 
 	<script type="text/javascript" src="../../js/utils.js"></script> 
 	<script type="text/javascript" src="../../js/language-select.js"></script> 
-	 
-
-  <script>
-    $(document).ready(() => $('#refresh-button').closest('.ui-btn').hide());
-  </script>
+	<script type="text/javascript" src="../../js/set-audio-source.js"></script> 
 
 <title>Дії апостолів</title> 
 
@@ -28,7 +24,11 @@
 		<h1>Дії апостолів</h1> 
 		<a href="./00_index.html" rel = "external" data-icon="home" data-iconpos="notext" data-direction="reverse">На домашню</a> 
     <div id="language-select"></div>
-    <button id="refresh-button">Refresh translation</button>
+		<div class="usd21audio">
+		  <audio controls="controls">
+		  	<source id = "audio_link_mp3" type="audio/mpeg"/>
+		  </audio>
+		</div>
 	</div> 
 
 
@@ -46,7 +46,7 @@
 			<a href="http://www.usd21.org/" rel="external"><img src="../../images/usd21_2012_logo.png" width="215" height="52" border= "0" alt="UpsideDown21"></a>
 			<br><img src="../../images/dm_2012_logo.png" width="215" height="26" border="0" alt="Discipleship Media">
 		</div> <!-- End div.fpPageFooterImages -->
-			&copy; 2017 Міжнародні Християнські Церкви (
+			&copy; 2017 Міжнародні Християнські Церкви (Рух повністю відданих учнів)
 	</div> <!-- End div.fpPageFooter -->
 </div>
 

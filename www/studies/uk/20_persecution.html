@@ -8,11 +8,7 @@
 	<script type="text/javascript" src="../../js/languages.js"></script> 
 	<script type="text/javascript" src="../../js/utils.js"></script> 
 	<script type="text/javascript" src="../../js/language-select.js"></script> 
-	 
-
-  <script>
-    $(document).ready(() => $('#refresh-button').closest('.ui-btn').hide());
-  </script>
+	<script type="text/javascript" src="../../js/set-audio-source.js"></script> 
 
 <title>Переслідування</title> 
 
@@ -28,7 +24,11 @@
 		<h1>Переслідування</h1> 
 		<a href="./00_index.html" rel = "external" data-icon="home" data-iconpos="notext" data-direction="reverse">На домашню</a> 
     <div id="language-select"></div>
-    <button id="refresh-button">Refresh translation</button>
+		<div class="usd21audio">
+		  <audio controls="controls">
+		  	<source id = "audio_link_mp3" type="audio/mpeg"/>
+		  </audio>
+		</div>
 	</div> 
 
 
@@ -51,7 +51,7 @@
                <li>
                   <strong>
                   <a data-rel="dialog" href="scriptures/mark-3-20-21.html" id="link.mark_3:20-21">
-                  Марка 3:20-21
+                  Від Марка 3:20-21
                   </a>
                   </strong>
                   :&nbsp;Рідні Ісуса вважали, що Він не при своєму розумі («промивання мізків», «керування свідомістю»)
@@ -59,7 +59,7 @@
                <li>
                   <strong>
                   <a data-rel="dialog" href="scriptures/mark-3-31-35.html" id="link.mark_3:31-35">
-                  Марка 3:31-35
+                  Від Марка 3:31-35
                   </a>
                   </strong>
                   :&nbsp;Ісус поставив Свою духовну родину вище, ніж фізичну
@@ -82,7 +82,7 @@
                <li>
                   <strong>
                   <a data-rel="dialog" href="scriptures/john-7-12-13.html" id="link.john_7:12-13">
-                  Івана 7:12-13
+                  Від Івана 7:12-13
                   </a>
                   </strong>
                   :&nbsp;Про Ісуса пліткували і звинувачували Його в обмані
@@ -90,7 +90,7 @@
                <li>
                   <strong>
                   <a data-rel="dialog" href="scriptures/john-10-19-21.html" id="link.john_10:19-21">
-                  Івана 10:19-21
+                  Від Івана 10:19-21
                   </a>
                   </strong>
                   :&nbsp;Іудеї – релігійні люди – невпинно переслідували Ісуса, приклеюючи «ярлики» і підриваючи Його репутацію. Вчення Ісуса завжди вносило поділ між Його слухачами
@@ -105,7 +105,7 @@
                <li>
                   <strong>
                   <a data-rel="dialog" href="scriptures/luke-23-1-3.html" id="link.luke_23:1-3">
-                  Луки 23:1-5
+                  Від Луки 23:1-5
                   </a>
                   </strong>
                   :&nbsp;Ісуса приговорили до смерті через розп’яття, використовуючи напівправду
@@ -204,7 +204,7 @@
                   Проповідь Слова
                   <strong>
                   <a data-rel="dialog" href="scriptures/john-15-18-20-16-1-4.html" id="link.john_15:18-20;16:1-4">
-                  Івана 15:18-20; 16:1-4
+                  Від Івана 15:18-20; 16:1-4
                   </a>
                   </strong>
                   <ol>
@@ -220,7 +220,7 @@
                   Вузький шлях спасіння
                   <strong>
                   <a data-rel="dialog" href="scriptures/matthew-7-13-14.html" id="link.matthew_7:13-14">
-                  Матвія 7:13-14
+                  Від Матвія 7:13-14
                   </a>
                   </strong>
                   <ol>
@@ -243,7 +243,7 @@
                      <li>
                         <strong>
                         <a data-rel="dialog" href="scriptures/matthew-28-19-20.html" id="link.matthew_28:19-20">
-                        Матвія 28:19-20
+                        Від Матвія 28:19-20
                         </a>
                         </strong>
                         :&nbsp;Тільки людина, що прийняла рішення хреститися як учень, врятована. (Ця істина засуджує тих, хто хрестяться для прощення гріхів, але не стають учнями до і після хрещення)
@@ -259,7 +259,7 @@
                      <li>
                         <strong>
                         <a data-rel="dialog" href="scriptures/matthew-28-19-20.html" id="link2.matthew_28:19-20">
-                        Матвія 28:19-20
+                        Від Матвія 28:19-20
                         </a>
                         </strong>
                         :&nbsp;Наставництво - заклик підкорятися Слову Бога - часто розглядається світом як контроль
@@ -278,7 +278,7 @@
          <li>
             <strong>
             <a data-rel="dialog" href="scriptures/matthew-5-10-12.html" id="link.matthew_5:10-12">
-            Матвія 5:10-12, 43-44
+            Від Матвія 5:10-12, 43-44
             </a>
             </strong>
             <ol>
@@ -293,12 +293,12 @@
          <li>
             <strong>
             <a data-rel="dialog" href="scriptures/ephesians-6-10-18.html" id="link.ephesians_6:10-18">
-            Єфесянам 6:10-18
+            До ефесян 6:10-18
             </a>
             </strong>
             <ol>
                <li>
-                  Satan is behind all persecution. Only God and His spiritual armor will give you the victory over the world
+                  Сатана стоїть за всіма переслідуваннями. Тільки Бог і Його духовні обладунки дадуть вам перемогу над світом
                </li>
             </ol>
          </li>
@@ -332,7 +332,7 @@
 			<a href="http://www.usd21.org/" rel="external"><img src="../../images/usd21_2012_logo.png" width="215" height="52" border= "0" alt="UpsideDown21"></a>
 			<br><img src="../../images/dm_2012_logo.png" width="215" height="26" border="0" alt="Discipleship Media">
 		</div> <!-- End div.fpPageFooterImages -->
-			&copy; 2017 Міжнародні Християнські Церкви (
+			&copy; 2017 Міжнародні Християнські Церкви (Рух повністю відданих учнів)
 	</div> <!-- End div.fpPageFooter -->
 </div>
 

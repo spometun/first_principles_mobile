@@ -8,13 +8,9 @@
 	<script type="text/javascript" src="../../js/languages.js"></script> 
 	<script type="text/javascript" src="../../js/utils.js"></script> 
 	<script type="text/javascript" src="../../js/language-select.js"></script> 
-	 
+	<script type="text/javascript" src="../../js/set-audio-source.js"></script> 
 
-  <script>
-    $(document).ready(() => $('#refresh-button').closest('.ui-btn').hide());
-  </script>
-
-<title>Кращі друзі на всі часи</title> 
+<title>Найкращі друзі на всі часи</title> 
 
 <head> 
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
@@ -25,10 +21,14 @@
 
 <body> 
 	<div data-role="header" data-theme="b"> 
-		<h1>Кращі друзі на всі часи</h1> 
+		<h1>Найкращі друзі на всі часи</h1> 
 		<a href="./00_index.html" rel = "external" data-icon="home" data-iconpos="notext" data-direction="reverse">На домашню</a> 
     <div id="language-select"></div>
-    <button id="refresh-button">Refresh translation</button>
+		<div class="usd21audio">
+		  <audio controls="controls">
+		  	<source id = "audio_link_mp3" type="audio/mpeg"/>
+		  </audio>
+		</div>
 	</div> 
 
 
@@ -53,7 +53,7 @@
          <li>
             <strong>
             <a data-rel="dialog" href="scriptures/john-13-34-35.html" id="link.john_13:34-35">
-            Івана 13:34-35 
+            Від Івана 13:34-35
             </a>
             </strong>
             :&nbsp;Любіть один одного. Ісус вчить, що християни повинні мати взаємини ближче і краще, ніж люди у світі. Спрямуйте усі свої зусилля, щоб зробити учнів своїми найкращими друзями
@@ -61,7 +61,7 @@
          <li>
             <strong>
             <a data-rel="dialog" href="scriptures/hebrews-3-12-14.html" id="link.hebrews_3:12-14">
-            Євреям 3:12-14
+            До євреїв 3:12-14
             </a>
             </strong>
             :&nbsp;щоденна підтримка один одного
@@ -69,7 +69,7 @@
          <li>
             <strong>
             <a data-rel="dialog" href="scriptures/ephesians-5-19-20.html" id="link.ephesians_5:19-20">
-            Ефесянам 5:19-20
+            До ефесян 5:19-20
             </a>
             </strong>
             :&nbsp;наставляйте один одного в псалмах, гімнах і духовних піснях
@@ -77,13 +77,13 @@
          <li>
             <strong>
             <a data-rel="dialog" href="scriptures/colossians-1-28-29.html" id="link.colossians_1:28-29">
-            Колосянам 1:28-29
+            До колоссян 1:28-29
             </a>
             </strong>
             :&nbsp;Направляти і вчити кожну людину. Це основний план Бога в тому, щоб вирости духовно і стати дорослими учнями. У той час як ми дорослішаємо, ми навчаємося наставляти один одного&nbsp;(
             <strong>
             <a data-rel="dialog" href="scriptures/romans-15-14.html" id="link.romans_15:14">
-            Римлянам 15:14
+            До римлян 15:14
             </a>
             </strong>
             )
@@ -91,7 +91,7 @@
          <li>
             <strong>
             <a data-rel="dialog" href="scriptures/galatians-6-1-2.html" id="link.galatians_6:1-2">
-            Галатам 6:1-2
+            До галатів 6:1-2
             </a>
             </strong>
             :&nbsp;М’яко виправляйте один одного та носіть тягарі один одного
@@ -115,7 +115,7 @@
          <li>
             <strong>
             <a data-rel="dialog" href="scriptures/hebrews-12-14-15.html" id="link.hebrews_12:14-15">
-            Євреям 12:14-15
+            До євреїв 12:14-15
             </a>
             </strong>
             :&nbsp;Будьте святі й попереджайте «гірке коріння» один в одному
@@ -123,7 +123,7 @@
          <li>
             <strong>
             <a data-rel="dialog" href="scriptures/1-thessalonians-5-12-14.html" id="link.1-thessalonians_5:12-14">
-            1 Солунянам 5:14-18
+            1 до солунян 5:14-18
             </a>
             </strong>
             :&nbsp;Наглядайте один за одним
@@ -131,7 +131,7 @@
          <li>
             <strong>
             <a data-rel="dialog" href="scriptures/john-17-20-23.html" id="link.john_17:20-23">
-            Івана 17:20-23
+            Від Івана 17:20-23
             </a>
             </strong>
             :&nbsp;Кінцева ціль любові й єдності  - навернення всього світу!
@@ -146,7 +146,7 @@
          <li>
             <strong>
             <a data-rel="dialog" href="scriptures/1-corinthians-7-39.html" id="link.1-corinthians_7:39">
-            1 Коринтянам 7:39
+            1 до коринтян 7:39
             </a>
             </strong>
             :&nbsp;Шлюб повинен бути тільки в Господі
@@ -154,7 +154,7 @@
          <li>
             <strong>
             <a data-rel="dialog" href="scriptures/2-corinthians-6-14-7-1.html" id="link.2-corinthians_6:14-7:1">
-            2 Коринтянам 6:14-7:1
+            2 до коринтян 6:14-7:1
             </a>
             </strong>
             :&nbsp;Побачення, як і шлюб - це партнерство, де ви «запрягати в одне ярмо». Учні повинні бути відокремлені від невіруючих для того, щоб отримати обіцянки Бога
@@ -162,7 +162,7 @@
          <li>
             <strong>
             <a data-rel="dialog" href="scriptures/1-kings-11-1-10.html" id="link.1-kings_11:1-10">
-            1 Царів 11:1-10
+            1 царів 11:1-10
             </a>
             ;
             <a data-rel="dialog" href="scriptures/nehemiah-13-23-27.html" id="link.nehemiah_13:23-27">
@@ -189,7 +189,7 @@
          <li>
             <strong>
             <a data-rel="dialog" href="scriptures/matthew-18-15-17.html" id="link.matthew_18:15-17">
-            Матвія 18:15-17
+            Від Матвія 18:15-17
             </a>
             </strong>
             :&nbsp;Християни будуть грішити один проти одного. Якщо хтось згрішить проти вас, не пліткуйте, звертаючись до когось ще. Поговоріть з людиною, яка образила вас, таким чином ви зможете придбати його / її як друга
@@ -213,7 +213,7 @@
 			<a href="http://www.usd21.org/" rel="external"><img src="../../images/usd21_2012_logo.png" width="215" height="52" border= "0" alt="UpsideDown21"></a>
 			<br><img src="../../images/dm_2012_logo.png" width="215" height="26" border="0" alt="Discipleship Media">
 		</div> <!-- End div.fpPageFooterImages -->
-			&copy; 2017 Міжнародні Християнські Церкви (
+			&copy; 2017 Міжнародні Християнські Церкви (Рух повністю відданих учнів)
 	</div> <!-- End div.fpPageFooter -->
 </div>
 

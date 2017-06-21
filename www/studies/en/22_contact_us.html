@@ -8,11 +8,7 @@
 	<script type="text/javascript" src="../../js/languages.js"></script> 
 	<script type="text/javascript" src="../../js/utils.js"></script> 
 	<script type="text/javascript" src="../../js/language-select.js"></script> 
-	 
-
-  <script>
-    $(document).ready(() => $('#refresh-button').closest('.ui-btn').hide());
-  </script>
+	<script type="text/javascript" src="../../js/set-audio-source.js"></script> 
 
 <title>Contact Us</title> 
 
@@ -28,7 +24,11 @@
 		<h1>Contact Us</h1> 
 		<a href="./00_index.html" rel = "external" data-icon="home" data-iconpos="notext" data-direction="reverse">Home</a> 
     <div id="language-select"></div>
-    <button id="refresh-button">Refresh translation</button>
+		<div class="usd21audio">
+		  <audio controls="controls">
+		  	<source id = "audio_link_mp3" type="audio/mpeg"/>
+		  </audio>
+		</div>
 	</div> 
 
 
@@ -38,7 +38,7 @@
     <a id = "mailto_technical" href="mailto:sergiy.pometun@usd21.org">support</a>
     <br><br>
     To contact us regarding the Biblical content of these First Principles studies, visit our:
-    <br><a href="usd21.org">Movement Website</a>
+    <br><a href="http://usd21.org">Movement Website</a>
     and locate Church in nation/city you want to contact to
     <br><br>
     We look forward to hearing from you!  We strive to respond promptly to all correspondence.

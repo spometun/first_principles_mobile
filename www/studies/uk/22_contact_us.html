@@ -8,11 +8,7 @@
 	<script type="text/javascript" src="../../js/languages.js"></script> 
 	<script type="text/javascript" src="../../js/utils.js"></script> 
 	<script type="text/javascript" src="../../js/language-select.js"></script> 
-	 
-
-  <script>
-    $(document).ready(() => $('#refresh-button').closest('.ui-btn').hide());
-  </script>
+	<script type="text/javascript" src="../../js/set-audio-source.js"></script> 
 
 <title>Наші контакти</title> 
 
@@ -28,20 +24,24 @@
 		<h1>Наші контакти</h1> 
 		<a href="./00_index.html" rel = "external" data-icon="home" data-iconpos="notext" data-direction="reverse">На домашню</a> 
     <div id="language-select"></div>
-    <button id="refresh-button">Refresh translation</button>
+		<div class="usd21audio">
+		  <audio controls="controls">
+		  	<source id = "audio_link_mp3" type="audio/mpeg"/>
+		  </audio>
+		</div>
 	</div> 
 
 
-    Do you have feedback, suggestions or questions regarding this mobile application or the First Principles study series?  Please let us know!
+    Якщо у вас є відгуки, пропозиції чи питання, що стосуються цього мобільного додатку чи серії уроків "Перші принципи", будь ласка, повідомте нам!
     <br><br>
-    To contact us regarding technical questions, such as improving this application on mobile devices, send an e-mail to:
-    <a id = "mailto_technical" href="mailto:sergiy.pometun@usd21.org">support</a>
+    Щоб зв'язатися з нами з приводу технічних питань, таких, як поліпшення цього додатка на мобільних пристроях, відправляйте листи електронною поштою:
+    <a id = "mailto_technical" href="mailto:sergiy.pometun@usd21.org">підтримка</a>
     <br><br>
-    To contact us regarding the Biblical content of these First Principles studies, visit our:
-    <br><a href="usd21.org">Movement Website</a>
-    and locate Church in nation/city you want to contact to
+    Щоб зв'язатися з нами з приводу біблійного змісту цих уроків "Перших принципів", відвідайте наш сайт:
+    <br><a href="http://usd21.org">сайт руху</a>
+    і знайдіть Церкву в країні/місті, в якому ви б хотіли зв'язатися
     <br><br>
-    We look forward to hearing from you!  We strive to respond promptly to all correspondence.
+    Ми з нетерпінням чекаємо листів від вас! Ми прагнемо оперативно реагувати на всі листи.
 
 
 <div data-role="footer" data-theme="b">
@@ -58,7 +58,7 @@
 			<a href="http://www.usd21.org/" rel="external"><img src="../../images/usd21_2012_logo.png" width="215" height="52" border= "0" alt="UpsideDown21"></a>
 			<br><img src="../../images/dm_2012_logo.png" width="215" height="26" border="0" alt="Discipleship Media">
 		</div> <!-- End div.fpPageFooterImages -->
-			&copy; 2017 Міжнародні Християнські Церкви (
+			&copy; 2017 Міжнародні Християнські Церкви (Рух повністю відданих учнів)
 	</div> <!-- End div.fpPageFooter -->
 </div>
 

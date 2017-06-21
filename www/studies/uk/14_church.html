@@ -8,11 +8,7 @@
 	<script type="text/javascript" src="../../js/languages.js"></script> 
 	<script type="text/javascript" src="../../js/utils.js"></script> 
 	<script type="text/javascript" src="../../js/language-select.js"></script> 
-	 
-
-  <script>
-    $(document).ready(() => $('#refresh-button').closest('.ui-btn').hide());
-  </script>
+	<script type="text/javascript" src="../../js/set-audio-source.js"></script> 
 
 <title>Церква</title> 
 
@@ -28,7 +24,11 @@
 		<h1>Церква</h1> 
 		<a href="./00_index.html" rel = "external" data-icon="home" data-iconpos="notext" data-direction="reverse">На домашню</a> 
     <div id="language-select"></div>
-    <button id="refresh-button">Refresh translation</button>
+		<div class="usd21audio">
+		  <audio controls="controls">
+		  	<source id = "audio_link_mp3" type="audio/mpeg"/>
+		  </audio>
+		</div>
 	</div> 
 
 
@@ -36,16 +36,16 @@
    <li>
       <strong>
       <a data-rel="dialog" href="scriptures/colossians-1-15-18.html" id="link.colossians_1:15-18">
-      Колосянам 1:15-18
+      До колоссян 1:15-18
       </a>
       </strong>
       <p>
-         Церква - це тіло Христа. Тілу потрібна голова.  Церква - невід'ємна частина Християнства
+         Церква - це тіло Христа. Тілу потрібна голова.  Церква - невід'ємна частина християнства
       </p>
       <table border="0" cellpadding="3" cellspacing="0">
          <tr>
             <td align="right" valign="top">
-               HEAD
+               Голова
             </td>
             <td align="right" valign="top">
                <img height="9" src="../../images/arrow-pointing-right.png" width="49"/>
@@ -57,13 +57,13 @@
                <img height="9" src="../../images/arrow-pointing-left.png" width="49"/>
             </td>
             <td align="left" valign="top">
-               CHRIST
+               Христос
             </td>
          </tr>
          <tr>
             <td align="right" valign="middle">
                <div style="margin-top: 20px">
-                  BODY
+                  Тіло
                </div>
             </td>
             <td align="right" valign="bottom">
@@ -74,7 +74,7 @@
             </td>
             <td align="left" valign="middle">
                <div style="margin-top: 20px">
-                  CHURCH
+                  Церква
                </div>
             </td>
          </tr>
@@ -83,12 +83,12 @@
    <li>
       <strong>
       <a data-rel="dialog" href="scriptures/ephesians-2-19-21.html" id="link.ephesians_2:19-21">
-      Ephesians 2:19-21
+      До ефесян 2:19-21
       </a>
       </strong>
       <ol>
          <li>
-            The church is the family of God
+            Церква – це сім’я Бога
             <br/>
             <br/>
             <table border="0" cellpadding="3" cellspacing="0">
@@ -99,10 +99,10 @@
                   </td>
                   <td align="center">
                      <strong>
-                     GOD
+                     Бог
                      </strong>
                      <br/>
-                     (Father)
+                     (Батько)
                   </td>
                   <td>
                   </td>
@@ -125,23 +125,23 @@
                </tr>
                <tr>
                   <td align="center">
-                     Christian
+                     Християнин
                      <br/>
-                     (Son)
+                     (Син)
                   </td>
                   <td>
                      <img height="10" src="../../images/line-w-e.png" width="60"/>
                   </td>
                   <td align="center">
-                     Brothers
+                     Брати
                   </td>
                   <td>
                      <img height="10" src="../../images/line-w-e.png" width="60"/>
                   </td>
                   <td align="center">
-                     Christian
+                     Християнин
                      <br/>
-                     (Son)
+                     (Син)
                   </td>
                </tr>
             </table>
@@ -149,165 +149,165 @@
          <li>
             <strong>
             <a data-rel="dialog" href="scriptures/1-corinthians-12-12-13.html" id="link.1-corinthians_12:12-13">
-            1 Corinthians 12:12-13
+            1 до коринтян
             </a>
             </strong>
-            teaches that we are baptized into the body of Christ, the church
+            вчить, що ми хрестимось у тіло Христа, у Церкву
          </li>
          <li>
             <strong>
             <a data-rel="dialog" href="scriptures/romans-6-3-4.html" id="link.romans_6:3-4">
-            Romans 6:3-4
+            До римлян 6:3-4
             </a>
             </strong>
-            teaches that we are also baptized into Christ.  Baptism is when we become Christian, a son of God, and at that same point we become members of the church, the family of God
+            вчить, що ми хрестимось у Христа. Хрещення – момент, коли людина стає християнином, дитиною Бога, і одночасно – членом Церкви, сім’ї Бога
          </li>
       </ol>
    </li>
    <li>
       <strong>
       <a data-rel="dialog" href="scriptures/ephesians-2-20.html" id="link.ephesians_2:20">
-      Ephesians 2:20
+      До ефесян 2:20
       </a>
       </strong>
       <ol>
          <li>
-            Cornerstone:  Christ
+            Наріжний камінь: Христос
          </li>
          <li>
-            Foundation:  Apostles and Prophets
+            Основа: апостоли і пророки
             <ol>
                <li>
-                  Apostles = New Testament Bible
+                  Апостоли – Новий Заповіт
                </li>
                <li>
-                  Prophets = Old Testament
+                  Пророки – Старий Заповіт
                </li>
             </ol>
          </li>
          <li>
-            The church is based on the Word of God only
+            Церква засновується тільки на Слові Бога
          </li>
       </ol>
    </li>
    <li>
       <strong>
-      Have you ever wondered why there are so many denominations — divisions?
+      Чи ви коли-небудь цікавилися, чому так багато деномінацій, розділень?
       </strong>
-      (450 or more exist in the U.S. alone)
+      (450 або навіть більше існує тільки в США)
       <ol>
          <li>
-            The Bible teaches that there is one church
+            Біблія вчить, що Церква одна
             <ol>
                <li>
                   <strong>
                   <a data-rel="dialog" href="scriptures/ephesians-4-4-6.html" id="link.ephesians_4:4-6">
-                  Ephesians 4:4-6
+                  До ефесян 4;4-6
                   </a>
                   </strong>
-                  — one body
+                  - одне тіло
                </li>
                <li>
                   <strong>
                   <a data-rel="dialog" href="scriptures/romans-12-4-5.html" id="link.romans_12:4-5">
-                  Romans 12:4-5
+                  До римлян 12:4-5
                   </a>
                   </strong>
-                  — one body
+                  - одне тіло
                </li>
                <li>
                   <strong>
                   <a data-rel="dialog" href="scriptures/1-corinthians-12-12-13.html" id="link2.1-corinthians_12:12-13">
-                  1 Corinthians 12:12-13
+                  1 до коринтян 12:12-13
                   </a>
                   </strong>
-                  — one body
+                  - одне тіло
                </li>
             </ol>
          </li>
          <li>
-            Divisions in Christendom are either of Satan or of God
+            Розділення в християнстві можуть бути або від Бога, або від сатани
             <ol>
                <li>
                   <strong>
                   <a data-rel="dialog" href="scriptures/1-corinthians-1-10-13.html" id="link.1-corinthians_1:10-13">
-                  1 Corinthians 1:10-13
+                  1 до коринтян 1:10-13
                   </a>
                   </strong>
-                  :&nbsp;Division is sin, when following personalities and in time their writings (traditions of men that contradict the Word — false doctrines)
+                  :&nbsp;Розділення - це гріх, якщо ми слідуємо за особистостями, а з часом - за їх творами (людські традиції, які суперечать Слову - це лжедоктрини)
                   <strong>
                   <a data-rel="dialog" href="scriptures/matthew-15-6-9.html" id="link.matthew_15:6-9">
-                  Matthew 15:6-9
+                  Від Матвія 15:6-9
                   </a>
                   </strong>
                </li>
                <li>
                   <strong>
                   <a data-rel="dialog" href="scriptures/luke-12-51-53.html" id="link.luke_12:51-53">
-                  Luke 12:51-53
+                  Від Луки 12:51-53
                   </a>
                   ;
                   <a data-rel="dialog" href="scriptures/john-10-19-21.html" id="link.john_10:19-21">
-                  John 10:19-21
+                  Від Івана 10:19-21
                   </a>
                   </strong>
-                  :&nbsp;Division will occur and is righteous, when an individual, church or movement aligns themselves with the Word of God.  The Jews considered themselves "God's people," yet Jesus' words (the truth) divided them into two groups — those who opposed Him and those who obeyed Him
+                  :&nbsp;Можуть відбуватися і праведні розділення, коли людина, церква чи рух рівняється на Слово Бога. Іудеї вважали себе «народом Бога», проте слова Ісуса (істина) розділили їх на дві групи: тих, хто протистояв Йому, і тих, хто підкорився Йому
                </li>
             </ol>
          </li>
          <li>
-            The following are the major historical divisions in Christendom — some were formed by a noble stand for the truth (though not a complete return), while others were departures from the truth
+            Нижче наведені основні історичні розділення в християнстві - деякі з'явилися в результаті благородної боротьби за істину (нехай навіть неповну), а інші навпаки були відходженням від істини
             <ol>
                <li>
-                  Through the centuries the church was corrupted by traditions of men — false doctrines, such as: infant baptism, original sin, perpetual virginity of Mary, priests as clergy, papal infallibility, etc… This becomes the
+                  Протягом століть церкву руйнували людські традиції: такі лжедоктрини, як хрещення немовлят, первородний гріх, вічна незайманість Марії, особливий сан духовенства, непогрішність папи і таке інше. Так з'явилася
                   <strong>
-                  Catholic Church
+                  Католицька Церква
                   </strong>
-                  .&nbsp;In 364 AD the Roman Empire is split into two parts. This division leads to a split in Christianity — the eastern portion becomes the
+                  .&nbsp;У 364 р. н.е. Римська Імперія розпалася на дві частини. Це призвело до розколу в християнстві - східна частина стала
                   <strong>
-                  Eastern Orthodox Church
+                  Східної Православною Церквою
                   </strong>
-                  and the western part becomes the
+                  а західна -
                   <strong>
-                  Roman Catholic Church
+                  Римською Католицькою Церквою
                   </strong>
-                  .&nbsp;Practices diverge, for example — Orthodox has married priests, Roman Catholic priests are celibate. The "Great Schism" occurs in 1054 AD, as the leaders of "each church" excommunicate each other
+                  .&nbsp;Вони розходяться в деяких аспектах, наприклад, у православ'ї священики можуть бути одруженими, а в католицизмі дають обітницю безшлюбності. «Великий розкол» стався в 1054 р. н. е., коли лідери кожної церкви взаємно піддали один одного анафемі
                </li>
                <li>
                   <strong>
-                  1500's Reformation Movement
+                  Рух Реформації 1500-х
                   </strong>
-                  — Martin Luther (Lutheran Church) He takes a stand against the Roman Catholic Church on these convictions: Bible authority over church authority, salvation by faith not works, and the priesthood of all believers, yet still baptizes infants. Other noted reformers were John Calvin (Presbyterian Church), Ulrich Zwingli and Conrad Grebel (Anabaptists). Anabaptists were heavily persecuted by Catholics and some reformers, because of their stand for adult baptism. Henry VIII (Anglican Church / Church of England) He breaks from the Catholic Church over his right to divorce his wife. He appoints himself head of the church. Later in the United States, the Anglican Church becomes the Episcopalian Church, since members will not follow the king of England
+                  - Мартін Лютер (Лютеранська Церква). Він виступив проти Римської Католицької Церкви з такими переконаннями: авторитет Біблії більше, ніж авторитет церкви; спасіння через віру, а не з учинків; священство всіх віруючих. Проте він продовжував визнавати хрещення немовлят. Іншими відомими реформістами були Джон Кальвін (Пресвітеріанська Церква), Ульріх Цвінглі і Конрад Гребель (анабаптисти). Анабаптистів жорстоко переслідували як католики, так і деякі реформісти через те, що вони відстоювали ідею хрещення дорослих. Генріх VIII (Англіканська Церква / Церква Англії) відокремився від Католицької Церкви через те, що Папа не давав йому право розлучитися з дружиною. Він сам себе призначив головою церкви. Пізніше в США Англіканська Церква стала називатися Єпископальною Церквою, оскільки її члени не хотіли слідувати за королем Англії
                </li>
                <li>
                   <strong>
-                  1700's Great Awakening Movement
+                  «Велике пробудження» 1700-х
                   </strong>
-                  — John and Charles Wesley (Methodist Church). Followers divide from Church of England over: personal transforming decision for Christ not state religion, high accountability of members, and preaching to the "unchurched;" also practiced infant baptism
+                  - Джон і Чарльз Уеслі (Методистська церква). Послідовники цих проповідників відділилися від Англіканської Церкви з такими переконаннями: особисте рішення слідувати за Христом замість державної релігії, висока підзвітність членів і проповідь тим, хто не належить до церкви. Вони теж практикували хрещення немовлят
                </li>
                <li>
                   <strong>
-                  1800's Restoration Movement
+                  Рух Реформації 1800-х
                   </strong>
-                  — Alexander Campbell and Barton Stone (Mainline Church of Christ and Conservative Christian Church) Take a stand against both Catholic and Protestant doctrines of salvation. They preach to be saved one must have personal faith in Christ, repentance and baptism (immersion) for the forgiveness of sin to receive the Holy Spirit. In reaction to Catholicism, their congregations are autonomous — self-governing. (1906 is the formal split between Mainline Church of Christ, which is non-instrumental, and the Conservative Christian Church, which is instrumental.) Joseph Smith (Mormon Church) divides from Restoration Movement in 1830 over "new revelation" — the Book of Mormon
+                  - Олександр Кембелл і Бартон Стоун (Традиційна Церква Христа і Консервативна Християнська Церква). Вони відстоювали доктрину порятунку, відмінну як від католицької, так і від протестантської, а саме, що для порятунку необхідно мати особисту віру в Христа, покаятися і хреститися (зануритися) для прощення гріхів і отримання Святого Духа. На противагу католицизму, їх громади автономні і самоврядні. (У 1906 стався формальний розкол між Традиційною Церквою Христа (ТЦХ), яка практикує лише вокальний спів на зборах, і Консервативної Християнською Церквою, де використовуються музичні інструменти). Джозеф Сміт (мормони) відокремився від Руху Відновлення в 1830 р., нібито отримавши «нове одкровення» - Книгу Мормона
                </li>
                <li>
                   <strong>
-                  1967 Crossroads Movement
+                  1967 р. - Рух "Кроссроудз"
                   </strong>
-                  (Total Commitment Movement) — Controversial, though never departing from the Mainline Church of Christ, the Crossroads Church near the University of Florida pioneers evangelizing the secular campuses of United States, "counting the cost" with each person that desires to be baptized, and the shepherding of new converts
+                  («Рух повної відданості»). Він викликав навколо себе суперечки, але ніколи не відходив від Традиційною Церкви Христа. Церква кроссроудз біля Університету Флориди першою почала навертати мирські вузи Сполучених Штатів, «підраховуючи вартість» з кожним бажаючим хреститися і наставляючи новонавернених
                </li>
                <li>
                   <strong>
-                  1979 Boston Movement
+                  1979 р. - Бостонський рух
                   </strong>
-                  (International Church of Christ) — Kip McKean — Baptized at the University of Florida in 1972, divides from Mainline Churches of Christ and Crossroads Movement over: Bible Church not just New Testament Church, only disciples are true Christians, each and every member of church must be a disciple, each member should be in discipling relationships, vision to evangelize the nations in a generation, the planting of new churches to achieve this vision, central leadership not autonomous congregations, and the role of women. In 2002, the International Churches of Christ return to a more Mainline Church of Christ theology — each congregation becomes autonomous (self-governing), calling a central leadership and the vision to evangelize the nations in a generation "unbiblical." Around the world, thousands fall away
+                  (Міжнародні Церкви Христа). Його почав Кіп Маккін, який хрестився в Університеті Флориди в 1972 р. Рух відокремилося від ТЦХ і кроссроудз, вважаючи, що: церква повинна бути церквою всієї Біблії, а не тільки Нового Завіту; тільки учні є істинними християнами; кожен член церкви повинен бути учнем; кожен член церкви повинен мати наставника; церква повинна мати бачення навернути світ в одному поколінні і засновувати нові церкви для досягнення цієї мети; громади повинні бути не автономними, а мати центральне лідерство; відрізнявся також погляд на роль жінок. У 2002 р. Міжнародні Церкви Христа багато у чому повернулися до теології ТЦХ: кожна громада стала автономною, а центральне лідерство і навернення світу в одному поколінні стали називати «Небіблійними» ідеями. Тисячі учнів по всьому світу відпали
                </li>
                <li>
                   <strong>
-                  2006 SoldOut Movement
+                  2006 р. - «Рух повністю відданих учнів»
                   </strong>
-                  (Portland Movement / International Christian Church): Begins in Portland, Oregon as a revival movement within the International Churches of Christ. The International Church of Christ separates from the SoldOut Movement, because of the new movement's stand on these convictions: Bible Church not just New Testament Church, only disciples are true Christians, each and every member of church must be a disciple, each member should be in discipling relationships, vision to evangelize the nations in a generation, the planting of new churches to achieve this vision, central leadership not autonomous congregations, and the role of women
+                  (Портлендський рух / Міжнародні Християнські Церкви). Почався в Портленді (Орегон) як рух духовного відродження всередині Міжнародних Церков Христа. МЦХ відокремили від себе «Рух повністю відданих учнів» через те, що останні наполягали на колишніх переконаннях: церква повинна бути церквою всієї Біблії, а не тільки Нового Завіту; тільки учні є істинними християнами; кожен член церкви повинен бути учнем; кожен член церкви повинен мати наставника; церква повинна мати бачення навернути світ в одному поколінні і засновувати нові церкви для досягнення цієї мети; громади повинні бути не автономними, а мати центральне лідерство; і роль жінок
                </li>
             </ol>
          </li>
@@ -315,127 +315,127 @@
    </li>
    <li>
       <strong>
-      What is the "one church?"
+      Що ж тоді означає «одна церква»?
       </strong>
       <ol>
          <li>
             <strong>
             <a data-rel="dialog" href="scriptures/acts-11-25-26.html" id="link.acts_11:25-26">
-            Acts 11:25-26
+            Дії 11:25-26
             </a>
-            :&nbsp;Church = Disciples = Christians
+            :&nbsp;Церква = Учні Христа = Християни
             </strong>
-            &nbsp;When God looks down from heaven, He sees one church — all the baptized disciples around the world, who are "sold-out" in obeying his Word.  This is called the "church universal" — the one true church&nbsp;(
+            &nbsp;Коли Бог дивиться з Небес, Він бачить одну церкву - всіх хрещених учнів по всьому світу, які «повністю віддані» Його слову. Це називається «вселенська церква» - єдина справжня церква&nbsp;(
             <strong>
             <a data-rel="dialog" href="scriptures/ephesians-4-4-6.html" id="link2.ephesians_4:4-6">
-            Ephesians 4:4-6
+            До ефесян 4:4-6
             </a>
             </strong>
             )
          </li>
          <li>
-            A local congregation is called the "visible church."  In the first century, all the "visible churches" made up the "church universal."  However, since so many "visible churches" have departed from true doctrine and because all sold-out baptized disciples are not in one fellowship, we should strive to be a member of a local congregation
+            Місцеві громади називаються «видима церква». У першому столітті всі «видимі церкви» і складали «всесвітню церкву». Однак через те, що так багато «видимих церков» відійшли від істинного вчення й тому, що всі повністю віддані учні не належать до одного «братства» церков, нам потрібно прагнути бути в місцевій громаді відданих учнів
          </li>
          <li>
-            The Greek word for church is "ekklesia" which means "assembly" or "called out" ("Ek" meaning 'out' and "kaleo" meaning 'to call').  To be a disciple is to be "called out" from the world.  Therefore, the church in the Bible was the "assembly" of the "called out"
+            Грецьке слово «церква» - «екклесіа» - означає «зібрання» або «покликані» («ек» - з, «Кале» - закликати). Бути учнем значити бути «покликаним» зі світу. Тому церква Біблії була «зібранням покликаних»
          </li>
          <li>
-            There are several names in the Bible for God's Church: Disciples, Christians, Church of God, Church of Christ, The Way, Church of the Firstborn, Saints, etc...  Since we are free to choose any name for our fellowship, since our fellowship goes around the world, and because our churches are composed of only sold-out disciples, we call ourselves the "International Christian Church"
+            У Біблії є кілька назв Церкви Бога: учні, християни, Церква Бога, Церква Христа, Шлях, святі і таке інше. Оскільки ми вільні вибирати будь-яке ім'я для нашого братства і оскільки воно поширюється по всьому світу і складається з церков, до яких належать тільки повністю віддані учні, ми називаємо себе «Міжнародні Християнські Церкви»
          </li>
       </ol>
    </li>
    <li>
       <strong>
-      What distinguishes the International Christian Churches? (What separates or "divides" us from mainstream Christendom?)
+      Що відрізняє Міжнародні Християнські Церкви? (Що «відокремлює» нас від загальноприйнятого християнства?)
       </strong>
       <ol>
          <li>
             <strong>
-            We believe God physically resurrected Jesus from the dead
+            Ми віримо, що Бог фізично воскресив Ісуса з мертвих
             </strong>
          </li>
          <li>
             <strong>
-            We believe the Bible is inspired by God and is our sole authority
+            Ми віримо, що Біблія натхненна Богом, і це єдине джерело влади для нас
             </strong>
-             Therefore, since we have not departed (divided) from the truth, we consider ourselves non-denominational
+            . І, оскільки ми не відійшли від істини, ми вважаємо себе неденомінаційною церквою
          </li>
          <li>
             <strong>
-            We are a Bible Church, not simply a New Testament Church
+            Ми - церква Біблії, а не тільки Нового Завіту
             <a data-rel="dialog" href="scriptures/2-timothy-3-14-17.html" id="link.2-timothy_3:14-17">
-            2 Timothy 3:14-17
+            2 Тимофію 3:14-17
             </a>
             </strong>.
-            &nbsp;The context of the word "Scripture" is referring to the Old Testament.  We believe the Old Testament applies to our lives — as much as the New Testament — except for the Mosaic Law and any teaching in the New Testament that supercedes the Old Testament (Example: grounds for divorce)
+            &nbsp;За контекстом, слово «писання» відноситься до Старого Заповіту. Ми віримо, що Старий Завіт повинен застосовуватися в нашому житті, як і Новий, за винятком Закону Мойсея і всіх тих навчань, які скасовані Новим Завітом (наприклад, підстави для розлучення)
          </li>
          <li>
             <strong>
-            We believe — as in the book of Acts — the visible church should be composed of only sold-out baptized disciples
+            Ми віримо, що видима церква (як це описано в Книзі Дій) повинна складатися тільки з повністю відданих хрещених учнів..
             </strong>
          </li>
          <li>
             <strong>
-            "Be silent where the Bible speaks, and speak where the Bible is silent"
+            «Мовчи, коли Біблія говорить, і говори, коли Біблія мовчить»
             </strong>
-            In applying Scriptural principles to build the visible church, we believe we must obey God's Word, but where the Bible does not prohibit a practice or name, we are free to use our God-given creativity&nbsp;
+            У тому, що стосується застосування біблійних принципів для побудови видимої церкви, ми віримо, що повинні підкорятися Біблії, але там, де Біблія не забороняє будь-яку практику або назву, ми вільні використовувати дані Богом творчі здібності&nbsp;
             <strong>
             <a data-rel="dialog" href="scriptures/genesis-2-19.html" id="link.genesis_2:19">
-            Genesis 2:19
+            Буття 2:19
             </a>
             </strong>
-            (Examples: The principles for "Bible Talks," "Lead Evangelist," "Discipleship Partners" and "Regions" are in the Scriptures, though these terms are not.  However, nowhere are they prohibited.  Also instrumental music and paid Women's Ministry Leaders are not prohibited in the Scriptures)
+            Наприклад, такі поняття, як «бесіди по Біблії», «провідний євангеліст», «учнівсько-наставницькі пари» і «регіони», взяті з Писання, хоча там немає таких термінів. Тим не менше, їх використання і не заборонено. Також Біблія не забороняє інструментальну музику та оплату праці працюючих на церкву жінок.
          </li>
          <li>
             <strong>
-            We believe in a Central Leadership
+            Ми віримо в необхідність центрального лідерства
             </strong>
-            &nbsp;Throughout God's Word, when His people were unified, there was a strong central leadership and godly central leader.  (Examples:  Moses, Joshua, David and of course Jesus and the Apostles)&nbsp;
+            &nbsp;У всьому Слові Бога, коли Його народ був єдиним, у нього було сильне центральне лідерство і благочестивий лідер (наприклад: Мойсей, Ісус Навин, Давид і, звичайно ж, Ісус і Його апостоли). З&nbsp;
             <strong>
             <a data-rel="dialog" href="scriptures/1-corinthians-4-15-17.html" id="link.1-corinthians_4:15-17">
-            1 Corinthians 4:15-17
+            1 до коринтян 4:15-17
             </a>
             </strong>
-            and
+            і
             <strong>
             <a data-rel="dialog" href="scriptures/titus-1-5.html" id="link.titus_1:5">
-            Titus 1:5
+            До Тита 1:5
             </a>
             </strong>
-            teaches that local congregations had an overseeing evangelist, who unified the disciples "everywhere in every church." In the first century, congregations were a collective movement — not autonomous, not self-governing)
+            можна зробити висновок, що в місцевих громадах були провідні євангелісти, які об'єднували учнів «скрізь у кожній Церкві». У першому столітті громади були загальним рухом, а не автономними, самоврядними групами.
          </li>
          <li>
             <strong>
             <a data-rel="dialog" href="scriptures/matthew-28-19-20.html" id="link.matthew_28:19-20">
-            Matthew 28:19-20
+            Від Матвія 28:18-20
             </a>
-            :&nbsp;Our vision — the evangelization of all nations in this generation —
+            :&nbsp;Наше бачення - навернення всіх народів у цьому поколінні -
             </strong>
-            will be accomplished through every disciple making disciples and every disciple having discipling relationships
+            здійсниться, якщо кожен учень буде робити учнями людей, і кожен учень матиме наставника
          </li>
       </ol>
    </li>
    <li>
       <strong>
       <a data-rel="dialog" href="scriptures/1-corinthians-12-14-27.html" id="link.1-corinthians_12:14-27">
-      1 Corinthians 12:14-27
+      1 до коринтян 12:14-27
       </a>
       </strong>
       <ol>
          <li>
-            We need the body.  The body needs us&nbsp;(
+            Нам потрібне тіло. Ми потрібні Тілу&nbsp;(
 			<strong>
             <a data-rel="dialog" href="scriptures/1-corinthians-12-21.html" id="link.1-corinthians_12:21">
-            v. 21
+            1 до коринтян 12:21
             </a>
 			</strong>
             )
          </li>
          <li>
-            Be involved on a relationship level in the church&nbsp;(
+            Необхідно бути залученими в церкву на рівні стосунків&nbsp;(
 			<strong>
             <a data-rel="dialog" href="scriptures/1-corinthians-12-26.html" id="link.1-corinthians_12:26">
-            v. 26
+            1 до коринтян 12:26
             </a>
 			</strong>
             )
@@ -445,57 +445,57 @@
    <li>
       <strong>
       <a data-rel="dialog" href="scriptures/hebrews-10-23-25.html" id="link.hebrews_10:23-25">
-      Hebrews 10:23-25
+      До євреїв 10:23-25
       </a>
       </strong>
       <ol>
          <li>
-            Do not miss church
+            Не пропускай зібрань церкви
          </li>
          <li>
-            The fellowship helps us to be unswerving in our commitment&nbsp;(
+            Спілкування допомагає нам бути непохитними у нашій відданості&nbsp;(
 			<strong>
             <a data-rel="dialog" href="scriptures/hebrews-10-23.html" id="link.hebrews_10:23">
-            v. 23
+            До євреїв 10:23
             </a>
 			</strong>
             )
          </li>
          <li>
-            Another purpose of fellowship is to encourage each other so we will remain faithful&nbsp;(
+            Ще одна мета спільних зустрічей - підтримувати один одного, щоб ми залишалися вірними&nbsp;(
             <a data-rel="dialog" href="scriptures/hebrews-10-24.html" id="link.hebrews_10:24">
-            v. 24
+            До євреїв 10:24
             </a>
             )
          </li>
          <li>
-            Must come to all meetings of the body:  Sunday and Midweek Services, Bible Talks, special devotionals, Jubilees, retreats, etc...  Begin to rearrange schedule to come to all the meetings of the body
+            Необхідно приходити на всі зустрічі тіла: служби у неділю і серед тижня, бесіди по Біблії, особливі сімейні часи, конференції і таке інше. Почни перебудовувати свій графік таким чином, щоб потрапляти на всі зібрання
          </li>
       </ol>
    </li>
    <li>
       <strong>
-      Contribution
+      Пожертви
       </strong>
       <ol>
          <li>
             <strong>
             <a data-rel="dialog" href="scriptures/malachi-3-6-12.html" id="link.malachi_3:6-12">
-            Malachi 3:6-12
+            Малахії 3:6-12
             </a>
             </strong>
-            :&nbsp;Do not rob God in your tithes and offerings.  Tithing is the guideline of our sacrifice on Sundays to meet the ministry needs.  Benevolent offerings are given at Midweek Services
+            :&nbsp;не обкрадайте Бога «десятинами і приносами». Десятину ми жертвуємо у неділю для потреб церкви. Добровільні «приноси» даються на службі серед тижня.
          </li>
          <li>
             <strong>
             <a data-rel="dialog" href="scriptures/2-corinthians-9-6-8.html" id="link.2-corinthians_9:6-8">
-            2 Corinthians 9:6-8
+            2 до коринтян 9:6-8
             </a>
             </strong>
-            :&nbsp;Giving should be from a "cheerful" heart — not under compulsion
+            :&nbsp;Давайте «як серце [вам] призволяє, не в смутку й не з примусу»
          </li>
          <li>
-            God blesses you when you sacrifice
+            Бог благословляє нас, коли ми жертвуємо
          </li>
       </ol>
    </li>
@@ -513,7 +513,7 @@
 			<a href="http://www.usd21.org/" rel="external"><img src="../../images/usd21_2012_logo.png" width="215" height="52" border= "0" alt="UpsideDown21"></a>
 			<br><img src="../../images/dm_2012_logo.png" width="215" height="26" border="0" alt="Discipleship Media">
 		</div> <!-- End div.fpPageFooterImages -->
-			&copy; 2017 Міжнародні Християнські Церкви (
+			&copy; 2017 Міжнародні Християнські Церкви (Рух повністю відданих учнів)
 	</div> <!-- End div.fpPageFooter -->
 </div>
 

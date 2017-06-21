@@ -8,11 +8,7 @@
 	<script type="text/javascript" src="../../js/languages.js"></script> 
 	<script type="text/javascript" src="../../js/utils.js"></script> 
 	<script type="text/javascript" src="../../js/language-select.js"></script> 
-	 
-
-  <script>
-    $(document).ready(() => $('#refresh-button').closest('.ui-btn').hide());
-  </script>
+	<script type="text/javascript" src="../../js/set-audio-source.js"></script> 
 
 <title>Після хрещення, що ж тепер?</title> 
 
@@ -28,7 +24,11 @@
 		<h1>Після хрещення, що ж тепер?</h1> 
 		<a href="./00_index.html" rel = "external" data-icon="home" data-iconpos="notext" data-direction="reverse">На домашню</a> 
     <div id="language-select"></div>
-    <button id="refresh-button">Refresh translation</button>
+		<div class="usd21audio">
+		  <audio controls="controls">
+		  	<source id = "audio_link_mp3" type="audio/mpeg"/>
+		  </audio>
+		</div>
 	</div> 
 
 
@@ -89,55 +89,55 @@
                   Обговоріть важливість гостинності - запрошуйте людей додому на обід, вечерю
                </li>
                <li>
-                  Discuss the leadership's expectation to tithe on Sundays and give a benevolent offering at the Midweek Services.  Read together
+                  Обговоріть очікування лідерства по відношенню до десятини по неділях і благодійного збору на зібраннях посеред тижня. Прочитайте разом
                   <strong>
                   <a data-rel="dialog" href="scriptures/malachi-3-6-12.html" id="link.malachi_3:6-12">
-                  Malachi 3:6-12
+                  Малахії 3:6-12
                   </a>
                   </strong>
                   і
                   <strong>
                   <a data-rel="dialog" href="scriptures/hebrews-13-17.html" id="link.hebrews_13:17">
-                  Hebrews 13:17
+                  До євреїв 13:17
                   </a>
                   </strong>
                </li>
             </ol>
          </li>
          <li>
-            Devoted to Breaking Bread — Communion
+            Наше ставлення до переломлення хліба - причастя
             (<strong>
             <a data-rel="dialog" href="scriptures/1-corinthians-11-23-32.html" id="link.1-corinthians_11:23-32">
-            1 Коринфянам 11:23-32
+            1 до коринтян 11:23-32
             </a>
             </strong>)
             <ol>
                <li>
-                  Discuss the purpose of bread and fruit of the vine
+                  Обговоріть ціль хліба та вина
                </li>
                <li>
-                  Discuss what it means to become spiritually "weak, sick and fallen asleep." How does communion prevent these conditions? &nbsp;(sick:
+                  Обговоріть, що це означає - стати духовно «слабким, хворим, сплячим». Як причастя попереджає ці стани? &nbsp;(Недуга для серця:
                   <strong>
                   <a data-rel="dialog" href="scriptures/proverbs-13-12.html" id="link.proverbs_13:12">
-                  Притчі 13:12
+                  Приповісті 13:12
                   </a>
                   </strong>)
                </li>
             </ol>
          </li>
          <li>
-            Devoted to Prayer
+            Наше ставлення до молитви
             <ol>
                <li>
-                  Discuss how prayer brings peace
+                  Обговоріть, як молитва приносить мир
                   (<strong>
                   <a data-rel="dialog" href="scriptures/philippians-4-4-7.html" id="link.philippians_4:4-7">
-                  Philippians 4:4-7
+                  До филип'ян 4:4-7
                   </a>
                   </strong>)
                </li>
                <li>
-                  Share petitions and answered prayers
+                  Поділіться проханнями і молитвами, на які ви отримали відповідь
                </li>
             </ol>
          </li>
@@ -146,43 +146,43 @@
    <li>
       <strong>
       <a data-rel="dialog" href="scriptures/acts-9-1-22.html" id="link.acts_9:1-22">
-      Acts 9:1-22
+      Дії 9:1-22
       </a>
       </strong>:&nbsp;
-      The Conversion of Paul
+      Навернення Павла
       <ol>
          <li>
-            Paul immediately begins to preach
+            Павло одразу починає проповідувати
             <ol>
                <li>
-                  With whom have you shared your faith?
+                  З ким ви ділились вірою?
                </li>
                <li>
-                  List friends and family to share with this week
+                  Напиши список друзів і членів сім’ї, з якими ти можеш поділитися вірою цього тижня
                </li>
             </ol>
          </li>
          <li>
-            Paul grows powerful
+            Павло потужно духовно зростає
          </li>
          <li>
-            Paul is persecuted
+            Павла переслідують
          </li>
       </ol>
    </li>
    <li>
       <strong>
       <a data-rel="dialog" href="scriptures/hebrews-5-11-6-6.html" id="link.hebrews_5:11-6:6">
-      Євреям 5:11-6:6
+      До євреїв 5:11-6:6
       </a>
       </strong>:&nbsp;
-      Перші принципи
+      Перші принципи (основи вчення)
       <ol>
          <li>
-            Strive to learn the first principles (elementary teachings) and go on to maturity, so you can be fruitful and not fall away
+            Доклади зусиль до того, щоб вивчити основи вчення (перші принципи) і перейти до зрілості. Так ти зможеш бути плодоносним і не піти від Бога
          </li>
          <li>
-            Discuss taking the First Principles Classes
+            Тобі потрібно навчитися вивчати з людьми Біблію
          </li>
       </ol>
    </li>
@@ -200,7 +200,7 @@
 			<a href="http://www.usd21.org/" rel="external"><img src="../../images/usd21_2012_logo.png" width="215" height="52" border= "0" alt="UpsideDown21"></a>
 			<br><img src="../../images/dm_2012_logo.png" width="215" height="26" border="0" alt="Discipleship Media">
 		</div> <!-- End div.fpPageFooterImages -->
-			&copy; 2017 Міжнародні Християнські Церкви (
+			&copy; 2017 Міжнародні Християнські Церкви (Рух повністю відданих учнів)
 	</div> <!-- End div.fpPageFooter -->
 </div>
 

@@ -8,13 +8,9 @@
 	<script type="text/javascript" src="../../js/languages.js"></script> 
 	<script type="text/javascript" src="../../js/utils.js"></script> 
 	<script type="text/javascript" src="../../js/language-select.js"></script> 
-	 
+	<script type="text/javascript" src="../../js/set-audio-source.js"></script> 
 
-  <script>
-    $(document).ready(() => $('#refresh-button').closest('.ui-btn').hide());
-  </script>
-
-<title>Чудесні Дари Святого Духа</title> 
+<title>Дивовижні Дари Святого Духа</title> 
 
 <head> 
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
@@ -25,52 +21,56 @@
 
 <body> 
 	<div data-role="header" data-theme="b"> 
-		<h1>Чудесні Дари Святого Духа</h1> 
+		<h1>Дивовижні Дари Святого Духа</h1> 
 		<a href="./00_index.html" rel = "external" data-icon="home" data-iconpos="notext" data-direction="reverse">На домашню</a> 
     <div id="language-select"></div>
-    <button id="refresh-button">Refresh translation</button>
+		<div class="usd21audio">
+		  <audio controls="controls">
+		  	<source id = "audio_link_mp3" type="audio/mpeg"/>
+		  </audio>
+		</div>
 	</div> 
 
 
 <ol>
    <li>
       <strong>
-      Types of Miraculous Gifts
+      Види дивовижних дарів
       </strong>
       <ol>
          <li>
             <strong>
             <a data-rel="dialog" href="scriptures/1-corinthians-12-8-10.html" id="link.1-corinthians_12:8-10">
-            1 Corinthians 12:8-10
+            1 до коринтян 12:8-10
             </a>
             </strong>
             <ol>
                <li>
-                  Wisdom
+                  Мудрість
                </li>
                <li>
-                  Knowledge
+                  Знання
                </li>
                <li>
-                  Faith
+                  Віра
                </li>
                <li>
-                  Healing
+                  Зцілення
                </li>
                <li>
-                  Miracles
+                  Чудеса
                </li>
                <li>
-                  Prophecy
+                  Пророцтва
                </li>
                <li>
-                  Distinguishing Spirits
+                  Розпізнання духів
                </li>
                <li>
-                  Tongues
+                  Мови
                </li>
                <li>
-                  Interpretation
+                  «Вияснення» мов
                </li>
             </ol>
          </li>
@@ -78,19 +78,19 @@
             (
             <strong>
             <a data-rel="dialog" href="scriptures/mark-16-16-18.html" id="link.mark_16:16-18">
-            Mark 16:16-18
+            Від Марка 16:16-18
             </a>
             </strong>)&nbsp;
-            Some will be able to:
+            Деякі зможуть:
             <ol>
                <li>
-                  Drink poison and not die
+                  Випити отруту і не померти
                </li>
                <li>
-                  Be bitten by snakes and not die&nbsp;(
+                  Не померти від укусу змії &nbsp;(
                   <strong>
                   <a data-rel="dialog" href="scriptures/acts-28-5.html" id="link.acts_28:5">
-                  Acts 28:5
+                  Дії 28:5
                   </a>
                   </strong>
                   )
@@ -101,35 +101,35 @@
    </li>
    <li>
       <strong>
-      Types of "Laying on of Hands"
+      Види «покладання рук»
       </strong>
       <ol>
          <li>
-            Blessing&nbsp;(
+            Благословення&nbsp;(
             <strong>
             <a data-rel="dialog" href="scriptures/acts-13-3.html" id="link.acts_13:3">
-            Acts 13:3
+            Дії 13:3
             </a>
             </strong>
             )
          </li>
          <li>
-            Healing
+            Зцілення
             <ol>
                <li>
-                  Ananias heals Paul's blindness&nbsp;(
+                  Ананія зцілив сліпоту Павла&nbsp;(
                   <strong>
                   <a data-rel="dialog" href="scriptures/acts-9-17-18.html" id="link.acts_9:17-18">
-                  Acts 9:17-18
+                  Дії 9:17-18
                   </a>
                   </strong>
                   )
                </li>
                <li>
-                  Paul heals Publius' father on Malta&nbsp;(
+                  Павло зцілив отця Публія на острові Мальта&nbsp;(
                   <strong>
                   <a data-rel="dialog" href="scriptures/acts-28-8.html" id="link.acts_28:8">
-                  Acts 28:8
+                  Дії 28:8
                   </a>
                   </strong>
                   )
@@ -137,87 +137,87 @@
             </ol>
          </li>
          <li>
-            Passing on the Gifts
+            Передача дарів
             <ol>
                <li>
-                  Apostles pass on the gifts&nbsp;(
+                  Апостоли могли передавати дари&nbsp;(
                   <strong>
                   <a data-rel="dialog" href="scriptures/acts-8-18.html" id="link.acts_8:18">
-                  Acts 8:18
+                  Дії 8:18
                   </a>
                   </strong>
                   )
                </li>
                <li>
-                  These people could not pass on the gifts that they received
+                  Люди, котрі отримали ці дари, не могли їх передавати
                </li>
             </ol>
             <ol class="loweralpha" style="list-style-type: lower-alpha" type="a">
                <li>
                   <strong>
                   <a data-rel="dialog" href="scriptures/acts-6-1-8.html" id="link.acts_6:1-8">
-                  Acts 6:1-8
+                  Дії 6:1-8
                   </a>
                   </strong>
-                  :&nbsp;Context is the choosing of "The Seven."  This is the first occasion that the gifts were passed.  Stephen immediately starts to perform miraculous signs among the people with God's power (v.8)
+                  :&nbsp;Контекст: вибрання «сімох». Це перший випадок, коли дари передавались. Степан одразу ж  почав творити великі чудеса і знамення серед народу силою, данною від Бога (Дії 6:8)
                </li>
                <li>
                   <strong>
                   <a data-rel="dialog" href="scriptures/acts-8-1-25.html" id="link.acts_8:1-25">
-                  Acts 8:1-25
+                  Дії 8:1-25
                   </a>
                   </strong>
-                  :&nbsp;Context is after Stephen's martyrdom.  Great persecution breaks out.  Many leave, but apostles stay in Jerusalem.  Philip, one of "The Seven" who had received the gifts in
+                  :&nbsp;Контекст: після мученицької смерті Степана почалося велике гоніння, багато учнів розсіялися, але апостоли залишилися в Єрусалимі. Філіп, один з сімох, яким були передані дари
                   <strong>
                   <a data-rel="dialog" href="scriptures/acts-6-1-8.html" id="link2.acts_6:1-8">
-                  Acts 6:1-8
+                  Дії 6:1-8
                   </a>
                   </strong>
-                  ,&nbsp;goes to Samaria.  He performs many miraculous signs and healings to get people to believe&nbsp;(
+                  ,&nbsp;пішов до Самарії. Він творив багато знамень і зцілював для того, щоб люди повірили&nbsp;(
                   <strong>
                   <a data-rel="dialog" href="scriptures/acts-8-6.html" id="link.acts_8:6">
                   v. 6
                   </a>
                   </strong>
-                  ),&nbsp;including Simon the Sorcerer&nbsp;(
+                  ),&nbsp;Ті, хто повірили, у тому числі і Симон-чаклун&nbsp;(
                   <strong>
                   <a data-rel="dialog" href="scriptures/acts-8-13.html" id="link.acts_8:13">
                   v. 13
                   </a>
                   </strong>
-                  ),&nbsp;and they are baptized.  (They became Christians and thus receive the forgiveness of sins and the gift (indwelling) of the Holy Spirit,
+                  ),&nbsp;були хрещені. (Вони стали християнами, отже, отримали прощення гріхів і дар (проживання) Святого Духа,
                   <strong>
                   <a data-rel="dialog" href="scriptures/acts-2-38.html" id="link.acts_2:38">
-                  Acts 2:38
+                  Дії 2:38
                   </a>
                   </strong>
-                  )&nbsp;When apostles come to Samaria, Simon saw that the Spirit's gifts were only given by apostles' laying on of hands and offers them money for this ability&nbsp;(
+                  )&nbsp;Коли апостоли прийшли до Самарії, Симон бачив, що дари Святого Духа давалися тільки покладанням рук апостолів, і він запропонував їм гроші, щоб мати цю здатність&nbsp;(
                   <strong>
                   <a data-rel="dialog" href="scriptures/acts-8-18.html" id="link2.acts_8:18">
-                  Acts 8:18
+                  Дії 8:18
                   </a>
                   </strong>
-                  )&nbsp;Note:  Simon didn't ask Philip for the gifts because Philip could not pass them on.  Simon is rebuked for having the wrong motivation
+                  )&nbsp;Зауважте, Симон не просив Філіпа про дари, тому що Філіп не міг передати їх. Симона дорікнули в неправильній мотивації
                </li>
                <li>
                   <strong>
                   <a data-rel="dialog" href="scriptures/acts-19-1-6.html" id="link.acts_19:1-6">
-                  Acts 19:1-6
+                  Дії 19:1-6
                   </a>
                   </strong>
-                  :&nbsp;Paul finds disciples in Ephesus who didn't know what the Holy Spirit was because they had only received John's baptism of repentance.  Then they were baptized into the name of Jesus Christ to receive the forgiveness of their sins and the indwelling of the Holy Spirit&nbsp;(
+                  :&nbsp;Павло знаходить учнів в Ефесі, які не знали, що таке Святий Дух, тому що вони отримали тільки хрещення покаяння Івана Хрестителя. Тоді вони були хрещені в ім'я Ісуса Христа, щоб отримати прощення гріхів та проживання Святого Духа&nbsp;(
                   <strong>
                   <a data-rel="dialog" href="scriptures/acts-19-5.html" id="link.acts_19:5">
                   v. 5
                   </a>
                   </strong>
-                  )&nbsp;Then they receive the miraculous gifts of prophecy and speaking in tongues by the laying on of Paul's hands&nbsp;(
+                  )&nbsp;Після цього, через покладання рук Павлом, вони отримали дивовижні дари пророцтва і здатність говорити іншими мовами&nbsp;(
                   <strong>
                   <a data-rel="dialog" href="scriptures/acts-19-6.html" id="link.acts_19:6">
                   v. 6
                   </a>
                   </strong>
-                  )&nbsp;Paul is an apostle
+                  )&nbsp;Павло – апостол
                </li>
             </ol>
          </li>
@@ -225,92 +225,92 @@
    </li>
    <li>
       <strong>
-      General Observations
+      Загальні спостереження
       </strong>
       <ol>
          <li>
-            Apostles were able to pass on the gifts because they were apostles.  The Apostles possessed the ability to perform miracles even during the ministry of Christ&nbsp;(
+            Апостоли мали владу передавати дари, тому що вони були апостолами. Вони отримали здатність творити чудеса навіть під час служіння Христа&nbsp;(
             <strong>
             <a data-rel="dialog" href="scriptures/luke-9-1.html" id="link.luke_9:1">
-            Luke 9:1
+            Від Луки 9:1
             </a>
             </strong>
-            )&nbsp;This ability to pass and perform the gifts was not given at Pentecost
+            )&nbsp;Здатність передавати дари і творити чудеса не була дана під час П'ятидесятниці
          </li>
          <li>
             <strong>
-            1 Corinthians
+            1 до коринтян
             <a data-rel="dialog" href="scriptures/1-corinthians-12.html" id="link.1-corinthians_12">
             12
             </a>
             </strong>
-            and
+            і
             <strong>
             <a data-rel="dialog" href="scriptures/1-corinthians-14.html" id="link.1-corinthians_14">
             14
             </a>
             </strong>
-            are not the directives on how to receive tongues (the church there had already received them), but rather the correctives on how to use them because everyone was speaking at the same time and misusing the tongues&nbsp;
+            не дає вказівок про те, як отримати мови (ця церква вже отримала їх), швидше там містяться пояснення про те, як їх використовувати, тому що всі говорили одночасно і зловживали знанням мов&nbsp;
             <strong>
             <a data-rel="dialog" href="scriptures/1-corinthians-12-28-30.html" id="link.1-corinthians_12:28-30">
-            1 Corinthians 12:28-30
+            1 до коринтян 12:28-30
             </a>
             </strong>
-            shows that tongues as a gift were not given to everyone in the church.  Thus the concept of a "Pentecostal church" (every member speaking in tongues) is contrary to Scripture
+            показує, що знання мов як дар був даний не кожному в церкві. Концепція «Церкви п'ятидесятників» (кожен член церкви говорить мовами) суперечить Писанню
          </li>
          <li>
             <strong>
             <a data-rel="dialog" href="scriptures/1-corinthians-13-8-10.html" id="link.1-corinthians_13:8-10">
-            1 Corinthians 13:8-10
+            1 до коринтян 13:8-10
             </a>
             </strong>
-            :&nbsp;"Perfection" here could not mean the coming of Christ because it is in the neuter gender in Greek, not the masculine gender.  When perfection comes probably refers to the canonization of the Bible some time after the first century.  At that time, all the miraculous gifts would be gone because all the apostles and those to whom they passed the gifts would have died
+            :&nbsp;«Досконалість» не могло означати прихід Христа, оскільки у грецькій мові воно середнього роду, а не чоловічого. Настання досконалості, можливо, вказує на канонізацію Біблії в якийсь момент після першого сторіччя. До того часу всі дивовижні дари пройдуть, тому що всі апостоли і ті люди, яким вони передали дари, уже помруть
          </li>
          <li>
-            The purpose of the miraculous gifts from
+            Призначення дивовижних дарів із
             <strong>
             <a data-rel="dialog" href="scriptures/1-corinthians-14-20-22.html" id="link.1-corinthians_14:20-22">
-            1 Corinthians 14:20-22
+            1 до коринтян 14:20-22
             </a>
             </strong>
             :
             <ol>
                <li>
-                  To get non-believers to believe (tongues were only to be used to bring non-believers to faith)
+                  Щоб ті, хто не вірять, повірили (мови були призначені тільки для того, щоб допомогти невіруючим знайти віру)
                </li>
                <li>
-                  To edify the Christians and strengthen their faith
+                  Щоб зміцнювати у вірі християн
                </li>
                <li>
-                  Now the Bible fulfills these needs — thus the church today does not need apostles or miraculous gifts
+                  Зараз ці потреби виконує Біблія - тому сьогодні церква не потребує апостолів або дивовижних дарів
                </li>
             </ol>
          </li>
          <li>
             <strong>
             <a data-rel="dialog" href="scriptures/2-thessalonians-2-9-12.html" id="link.2-thessalonians_2:9-12">
-            2 Thessalonians 2:9-12
+            2 до солунян 2:9-12
             </a>
             </strong>
-            shows that there can be miracles by Satan today.  Satan's purpose is to deceive people about the truth, so they will not be saved
+            показує, що дива сьогодні можуть бути і від Сатани. Мета Сатани – обдурити людей, щоб вони не були врятовані
          </li>
          <li>
-            Speaking in "tongues" is common in many religions (Mormon, Catholic, Islam, etc.), because religion gets dried and staid.  These are also called "ecstatic utterances" — non-understandable sounds and fragments of speech
+            Говоріння «мовами» звичайне явище для багатьох релігій (мормони, католики, іслам тощо). Це спосіб «оживити» релігію, яка стала сухою і статичною. Це явище називають також «несамовите бурмотіння» - нечленороздільні звуки і фрагменти мови
          </li>
          <li>
-            A person can be filled with the Spirit without speaking in tongues&nbsp;(
+             Людина може бути наповнена Духом без дару говорити іншими мовами&nbsp;(
             <strong>
             <a data-rel="dialog" href="scriptures/ephesians-5-18-20.html" id="link.ephesians_5:18-20">
-            Ephesians 5:18-20
+            до ефесян 5:18-20
             </a>
             </strong>
             )
          </li>
          <li>
-            Jesus never spoke in tongues and he was accorded the full-measure of the Spirit&nbsp;(
+            Ісус ніколи не говорив іншими мовами, і при цьому Він був наділений Духом без міри &nbsp;(
             <strong>
             <a data-rel="dialog" href="scriptures/john-3-34-36.html" id="link.john_3:34-36">
-            John 3:34-36
+            Від Івана 3:34-36
             </a>
             </strong>
             )
@@ -331,7 +331,7 @@
 			<a href="http://www.usd21.org/" rel="external"><img src="../../images/usd21_2012_logo.png" width="215" height="52" border= "0" alt="UpsideDown21"></a>
 			<br><img src="../../images/dm_2012_logo.png" width="215" height="26" border="0" alt="Discipleship Media">
 		</div> <!-- End div.fpPageFooterImages -->
-			&copy; 2017 Міжнародні Християнські Церкви (
+			&copy; 2017 Міжнародні Християнські Церкви (Рух повністю відданих учнів)
 	</div> <!-- End div.fpPageFooter -->
 </div>
 

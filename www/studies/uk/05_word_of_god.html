@@ -8,11 +8,7 @@
 	<script type="text/javascript" src="../../js/languages.js"></script> 
 	<script type="text/javascript" src="../../js/utils.js"></script> 
 	<script type="text/javascript" src="../../js/language-select.js"></script> 
-	 
-
-  <script>
-    $(document).ready(() => $('#refresh-button').closest('.ui-btn').hide());
-  </script>
+	<script type="text/javascript" src="../../js/set-audio-source.js"></script> 
 
 <title>Слово Бога</title> 
 
@@ -28,7 +24,11 @@
 		<h1>Слово Бога</h1> 
 		<a href="./00_index.html" rel = "external" data-icon="home" data-iconpos="notext" data-direction="reverse">На домашню</a> 
     <div id="language-select"></div>
-    <button id="refresh-button">Refresh translation</button>
+		<div class="usd21audio">
+		  <audio controls="controls">
+		  	<source id = "audio_link_mp3" type="audio/mpeg"/>
+		  </audio>
+		</div>
 	</div> 
 
 
@@ -36,73 +36,73 @@
    <li>
       <strong><a data-rel="dialog" href="scriptures/2-timothy-3-16-17.html" id = "link.2-timothy_3:16-17">2 Тимофію 3:16-17</a></strong>
       <ol>
-         <li>Все Писання натхненно Богом</li>
-         <li>Біблія призначена для використання в наших життях</li>
+         <li>Усе Писання натхненно Богом</li>
+         <li>Воно призначено для використання у нашому житті</li>
       </ol>
    </li>
    <li>
-      <strong><a data-rel="dialog" href="scriptures/hebrews-4-12-13.html" id = "link.hebrews_4:12-13">Євреям 4:12-13</a></strong>
+      <strong><a data-rel="dialog" href="scriptures/hebrews-4-12-13.html" id = "link.hebrews_4:12-13">До євреїв 4:12-13</a></strong>
       <ol>
-         <li>Слово Бога є актуальним</li>
-         <li>Слово ріже (серця)</li>
-         <li>Learn that it is good to be "cut," because a scalpel (God's Word) "cuts" the cancer (sin) out!</li>
+         <li>Слово Бога нині актуально</li>
+         <li>Слово ріже (може робити боляче)</li>
+         <li>Зрозумійте, така операція – це добре, тому що Слово Бога вирізає гріх, як ракову пухлину! </li>
       </ol>
    </li>
    <li>
       <strong><a data-rel="dialog" href="scriptures/2-peter-1-20-21.html" id = "link.2-peter_1:20-21">2 Петра 1:20-21</a></strong>
       <ol>
-         <li>Пророцтва не з‘явились на основі влаасних міркувань чи бажань пророків</li>
-         <li>Святий Дух надихнув людей, які писали книги Біблії</li>
+         <li>Пророцтва не з’являлось з власної волі, особистої думки чи бажання пророків</li>
+         <li>Святий Дух провадив людей, які писали книги Біблії</li>
       </ol>
    </li>
    <li>
-      <strong><a data-rel="dialog" href="scriptures/john-8-31-32.html" id = "link.john_8:31-32">Івана 8:31-32</a></strong>
+      <strong><a data-rel="dialog" href="scriptures/john-8-31-32.html" id = "link.john_8:31-32">Від Івана 8:31-32</a></strong>
       <ol>
-         <li>Просто вірити не достатньо - ми не можемо слідувати за нашими почуттями</li>
-         <li>Кожна людина повинна триматись і слідувати за Христом, щоб бути істинним учнем</li>
-         <li>Щирість не обов‘язково істина</li>
-         <li>Релігійні люди можуть помилятися</li>
+         <li>Просто вірити розумом недостатньо, але так само не можна йти лиши за почуттями</li>
+         <li>Щоб бути справжнім учнем Ісуса, людина повинна спочатку прийняти Його вчення, бути вірною Йому і виконувати на практиці</li>
+         <li>Щирість не те саме, що істина</li>
+         <li>Віруючі можуть помилятися. </li>
       </ol>
    </li>
    <li>
-      <strong><a data-rel="dialog" href="scriptures/matthew-15-1-9.html" id = "link.matthew_15:1-9">Матвія 15:1-9</a></strong>
+      <strong><a data-rel="dialog" href="scriptures/matthew-15-1-9.html" id = "link.matthew_15:1-9">Від Матвія 15:1-9</a></strong>
       <ol>
-         <li>Не слідуйте сліпо традиціям або віросповіданням</li>
-         <li>Поклоніння Богу, основою якого є традиції, які протирічать Його Слову, пуста трата часу</li>
+         <li>Не поклоняйтеся Богу згідно з традиціями чи загальноприйнятою думкою</li>
+         <li>Поклоніння Богу на основі традицій, які протирічать Його заповідям, безглузде.</li>
       </ol>
    </li>
    <li>
       <strong><a data-rel="dialog" href="scriptures/1-timothy-4-16.html" id = "link.1-timothy_4:16">1 Тимофію 4:16</a></strong>
       <ol>
-         <li>Уважно дивись на своє життя і вчення - вони нероздільні</li>
-         <li>Що важливіше: життя чи вчення? Вони однаково важливі - літак не може летіти з одним крилом</li>
-         <li>Чому так важливо жити, вчитись самому та вчити інших, керуючись правильним вченням? Щоб спасти себе і тих, хто слухає тебе</li>
+         <li>Уважно слідкуйте за своїм життям та чому ви вчите – ці поняття невіддільні</li>
+         <li>Що важливіше: життя чи вчення? Вони однаково важливі – літак не може літати з одним крилом</li>
+         <li>Чому так важливо жити, учитися самому й навчати інших, керуючись правильним вченням? Щоб спасти себе та тих, хто тебе слухає.</li>
       </ol>
    </li>
    <li>
       <strong><a data-rel="dialog" href="scriptures/acts-17-10-12.html" id = "link.acts_17:10-12">Дії 17:10-12</a></strong>
       <ol>
-         <li>A noble character in God's eyes: great eagerness in receiving the message; examine Scriptures; daily; and believe - make decisions based on the Scriptures</li>
-         <li>Кожен має сам перевіряти те, що говорять релігійні лідери</li>
-         <li>Твоє рішення: читати та вивчати Біблію кожен день</li>
+         <li>Шляхетні в очах Божих: має велике завзяття в отриманні повідомлення; досліджує Писання; щодня; і вірить - приймає рішення, засновані на Писанні</li>
+         <li>Кожен має сам перевіряти те, що говорять рвіруючі люди</li>
+         <li>Прийміть рішення читати та вивчати Біблію кожен день!</li>
       </ol>
    </li>
    <li>
       <strong><a data-rel="dialog" href="scriptures/james-1-22-25.html" id = "link.james_1:22-25">Якова 1:22-25</a></strong>
       <ol>
-         <li>Слово Бога - це дзеркало </li>
-         <li>Не забувай того, що ти побачив - “будьте виконавцями слова“</li>
+         <li>Слово Бога - це дзеркало</li>
+         <li>Не забувайте того, що побачили – "будьте виконавцями слова"</li>
       </ol>
    </li>
    <li>
-      <strong><a data-rel="dialog" href="scriptures/john-12-48.html" id = "link.john_12:48">Івана 12:48</a></strong>
+      <strong><a data-rel="dialog" href="scriptures/john-12-48.html" id = "link.john_12:48">Від Івана 12:48</a></strong>
       <ol>
          <li>Навіщо вивчати Біблію? Слово буде судити нас</li>
       </ol>
    </li>
    <br>
    <p>
-   <strong>Рішення:</strong>&nbsp;Я буду жити по Біблії чи згідно счоїх почуттів, традицій, бажань і т.д.?
+   <strong>Рішення:</strong>&nbsp;За чим я буду слідувати у своєму житті: за Біблією чи за своїми почуттями, традиціями, бажаннями тощо?
    </p>
 </ol><div data-role="footer" data-theme="b">
 	<div class="fpPageFooter">
@@ -118,7 +118,7 @@
 			<a href="http://www.usd21.org/" rel="external"><img src="../../images/usd21_2012_logo.png" width="215" height="52" border= "0" alt="UpsideDown21"></a>
 			<br><img src="../../images/dm_2012_logo.png" width="215" height="26" border="0" alt="Discipleship Media">
 		</div> <!-- End div.fpPageFooterImages -->
-			&copy; 2017 Міжнародні Християнські Церкви (
+			&copy; 2017 Міжнародні Християнські Церкви (Рух повністю відданих учнів)
 	</div> <!-- End div.fpPageFooter -->
 </div>
 

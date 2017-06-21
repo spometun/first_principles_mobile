@@ -8,11 +8,7 @@
 	<script type="text/javascript" src="../../js/languages.js"></script> 
 	<script type="text/javascript" src="../../js/utils.js"></script> 
 	<script type="text/javascript" src="../../js/language-select.js"></script> 
-	 
-
-  <script>
-    $(document).ready(() => $('#refresh-button').closest('.ui-btn').hide());
-  </script>
+	<script type="text/javascript" src="../../js/set-audio-source.js"></script> 
 
 <title>Kontakta oss</title> 
 
@@ -28,7 +24,11 @@
 		<h1>Kontakta oss</h1> 
 		<a href="./00_index.html" rel = "external" data-icon="home" data-iconpos="notext" data-direction="reverse">Hem</a> 
     <div id="language-select"></div>
-    <button id="refresh-button">Refresh translation</button>
+		<div class="usd21audio">
+		  <audio controls="controls">
+		  	<source id = "audio_link_mp3" type="audio/mpeg"/>
+		  </audio>
+		</div>
 	</div> 
 
 
@@ -38,7 +38,7 @@
     <a id = "mailto_technical" href="mailto:sergiy.pometun@usd21.org">Stöd</a>
     <br><br>
     För att kontakta oss angående det bibliska innehållet i dessa förstudier, besök vår:
-    <br><a href="usd21.org">Rörelse webbplats</a>
+    <br><a href="http://usd21.org">Rörelse webbplats</a>
     Och lokalisera kyrkan i den land / stad du vill kontakta
     <br><br>
     Vi ser fram emot att höra av dig! Vi strävar efter att reagera snabbt på all korrespondens.
