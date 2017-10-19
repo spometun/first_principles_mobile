@@ -1,0 +1,68 @@
+<!DOCTYPE html> 
+<html>
+
+	<script type="text/javascript" src="../../jquery/jquery-1.7.2.min.js"></script> 
+  <script type="text/javascript" src="../../jquery/jquery.mobile-1.1.0.min.js"></script> 
+
+  <!-- Both next are needed for #language-select -->
+	<script type="text/javascript" src="../../js/languages.js"></script> 
+	<script type="text/javascript" src="../../js/utils.js"></script> 
+	<script type="text/javascript" src="../../js/language-select.js"></script> 
+	<script type="text/javascript" src="../../js/set-audio-source.js"></script> 
+
+<title>Контакты</title> 
+
+<head> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<meta charset="utf-8"> 
+	<link rel="stylesheet" type="text/css" href="../../style.css" /> 
+	<link rel="stylesheet" type="text/css" href="../../jquery/jquery.mobile-1.1.0.min.css" /> 
+</head> 
+
+<body> 
+	<div data-role="header" data-theme="b"> 
+		<h1>Контакты</h1> 
+		<a href="./00_index.html" rel = "external" data-icon="home" data-iconpos="notext" data-direction="reverse">На домашнюю</a> 
+    <div id="language-select"></div>
+		<div class="usd21audio">
+		  <audio controls="controls" id="audio" style="display:none">
+        <source id = "audio_link_m4a" type="audio/aac"/>
+        <source id = "audio_link_ogg" type="audio/ogg"/>
+        <source id = "audio_link_mp3" type="audio/mpeg"/>
+		  </audio>
+		</div>
+	</div> 
+
+
+    Do you have feedback, suggestions or questions regarding this mobile application or the First Principles study series?  Please let us know!
+    <br><br>
+    To contact us regarding technical questions, such as improving this application on mobile devices, send an e-mail to:
+    <a id = "mailto_technical" href="mailto:sergiy.pometun@usd21.org">support</a>
+    <br><br>
+    To contact us regarding the Biblical content of these First Principles studies, visit our:
+    <br><a href="http://usd21.org">Movement Website</a>
+    and locate Church in nation/city you want to contact to
+    <br><br>
+    We look forward to hearing from you!  We strive to respond promptly to all correspondence.
+
+
+<div data-role="footer" data-theme="b">
+	<div class="fpPageFooter">
+		<a href="./00_index.html" rel = "external" data-role="button" data-icon="home" data-iconpos="left" data-direction="reverse">На домашнюю</a>
+		<a href="./22_contact_us.html" rel = "external" data-role="button">Контакты</a>
+		<div class='social'>
+			<a href='http://www.facebook.com/sharer.php?u=http://usd21.org/m/' class='social_icon facebook' rel="nofollow"></a>
+			<a href='https://twitter.com/share?url=http://usd21.org/m/' class='social_icon twitter' rel="nofollow"></a>
+			<a class='social_icon googleplus' href="https://plusone.google.com/_/+1/confirm?hl=en&url=http://usd21.org/m/" rel="nofollow" ></a>
+			<div style='clear:both'></div>
+		</div>
+		<div class="fpPageFooterImages">
+			<a href="http://www.usd21.org/" rel="external"><img src="../../images/usd21_2012_logo.png" width="215" height="52" border= "0" alt="UpsideDown21"></a>
+			<br><img src="../../images/dm_2012_logo.png" width="215" height="26" border="0" alt="Discipleship Media">
+		</div> <!-- End div.fpPageFooterImages -->
+			&copy; 2017 Международная Христианская Церковь (Движение полностью преданных учеников)
+	</div> <!-- End div.fpPageFooter -->
+</div>
+
+</body>
+</html>

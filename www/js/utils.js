@@ -1,7 +1,9 @@
 const makePattern = (language) => `/${language}/`;
 const { pathname } = window.location;
 
-const PAGE_NAME = pathname.slice(pathname.lastIndexOf('/') + 1);
+const lastSlashIndex = pathname.lastIndexOf('/');
+const lastDotIndex = pathname.lastIndexOf('.');
+const PAGE_NAME = pathname.slice(lastSlashIndex + 1, lastDotIndex);
 
 let CUR_LANGUAGE;
 for (var i = 0; i < LANGUAGES.length; i++) {
