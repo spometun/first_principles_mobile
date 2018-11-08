@@ -1,0 +1,182 @@
+<!DOCTYPE html> 
+<html>
+
+	<script type="text/javascript" src="../../jquery/jquery-1.7.2.min.js"></script> 
+  <script type="text/javascript" src="../../jquery/jquery.mobile-1.1.0.min.js"></script> 
+
+  <!-- Both next are needed for #language-select -->
+	<script type="text/javascript" src="../../js/languages.js"></script> 
+	<script type="text/javascript" src="../../js/utils.js"></script> 
+	<script type="text/javascript" src="../../js/language-select.js"></script> 
+	<script type="text/javascript" src="../../js/set-audio-source.js"></script> 
+
+<title>Vida de un Discipulo</title> 
+
+<head> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<meta charset="utf-8"> 
+	<link rel="stylesheet" type="text/css" href="../../style.css" /> 
+	<link rel="stylesheet" type="text/css" href="../../jquery/jquery.mobile-1.1.0.min.css" /> 
+</head> 
+
+<body> 
+	<div data-role="header" data-theme="b"> 
+		<h1>Vida de un Discipulo</h1> 
+		<a href="./00_index.html" rel = "external" data-icon="home" data-iconpos="notext" data-direction="reverse">Inicio</a> 
+    <div id="language-select"></div>
+		<div class="usd21audio">
+		  <audio controls="controls" id="audio" style="display:none">
+        <source id = "audio_link_m4a" type="audio/aac"/>
+        <source id = "audio_link_ogg" type="audio/ogg"/>
+        <source id = "audio_link_mp3" type="audio/mpeg"/>
+		  </audio>
+		</div>
+	</div> 
+
+
+<ol>
+   <strong>Introducción:&nbsp;<a data-rel="dialog" href="scriptures/matthew-28-18-20.html" id = "link.matthew_28:18-20">Mateo 28-18-20</a></strong>
+   <br>  
+   <br>
+   <li>¿Qué quiere Jesús que todos seamos?</li>
+   <li>¿Cúal es la palabra más común - "Discípulo" o "Cristiano"? La palabra "Cristiano" solamente aparece 3 veces en el Nuevo Testamento.  Fue el nombre que el mundo le dio a los discípulos, siete años despues de comenzar la Iglesia.
+      (<strong><a data-rel="dialog" href="scriptures/acts-11-19-26.html" id = "link.acts_11:19-26">Hechos 11:19-26</a></strong>)
+      La palabra "Discípulo" aparece más de 270 veces en el Nuevo Testamento.
+   </li>
+   <li>SALVO = CRISTIANO = DISCIPULO</li>
+   <li>Jesús vino a hacer discípulos.  Sólo los discípulos bautizados serán salvos.</li>
+</ol>
+<p>
+   <strong>
+   Dejemos que Jesús defina qué es ser un discípulo, para poder definir quién es un verdadero cristiano.
+   </strong>
+</p>
+<ol>
+   <li>
+      <strong>
+      <a data-rel="dialog" href="scriptures/mark-1-14-18.html" id = "link.mark_1:14-18">Marcos 1:14-18</a>
+      </strong>
+      <ol>
+         <li>Llamado de los primeros discípulos.</li>
+         <li>Vengan y Síganme (Cristo).</li>
+         <li>Pescadores de hombre - Jesús les dio a los primeros discípulos el verdadero propósito para vivir.</li>
+         <li>Al momento</li>
+      </ol>
+   </li>
+   <li>
+      <strong>
+      <a data-rel="dialog" href="scriptures/luke-9-23-26.html" id = "link.luke_9:23-26">Lucas 9:23-26</a>
+      </strong>
+      <ol>
+         <li>Si alguno ... (Aplicable a todos)</li>
+         <li>Negarse a sí mismo.  Observa a Jesús en Getsemaní
+            (
+            <a data-rel="dialog" href="scriptures/matthew-26-36-39.html" id = "link.matthew_26:36-39"><strong>Mateo 26:36-39</strong></a>,&nbsp;
+            "... pero que no se haga lo que yo quiero, sino lo que quieres tú"). No te dejes llevar por tus emociones
+         </li>
+         <li>Cargar con tu cruz - diariamente</li>
+         <li>Ganas el mundo -> perder tu alma.  Perder tu vida por Jesús ... Salvar tu alma.</li>
+      </ol>
+   </li>
+   <li>
+      <strong>
+      <a data-rel="dialog" href="scriptures/luke-14-25-33.html" id = "link.luke_14:25-33">Lucas 14:25-33</a>
+      </strong>
+      <ol>
+         <li>Si alguno...(se aplica a todos)</li>
+         <li>Cuanta el costo (v. 28-30)</li>
+         <li>Considera las alternativas (v. 31-32)</li>
+         <li>Amar a Cristo más que a cualquier persona (v. 26)</li>
+         <li>Las persecuciones (v. 27)</li>
+         <li>Todo, no solo nua cosa (v. 33)</li>
+      </ol>
+   </li>
+   <li>
+      <strong>
+      <a data-rel="dialog" href="scriptures/luke-11-1-4.html" id = "link.luke_11:1-4">Lucas 11:1-4</a>
+      </strong>
+      <ol>
+         <li>Debes aprender a orar - Los discípulos se dieron cuenta del poder que Jesús recibía de su Padre.</li>
+         <li>Una relación personal con Dios (v. 3); orar diariamente.</li>
+      </ol>
+   </li>
+   <li>
+      <strong>
+      <a data-rel="dialog" href="scriptures/john-13-34-35.html" id = "link.john_13:34-35">Juan 13:34-35</a>
+      </strong>
+      <ol>
+         <li>Amarse los unos a los otros.</li>
+         <li>Debes ser una parte activa de la confraternidad.</li>
+      </ol>
+   </li>
+   <li>
+      <strong>
+      <a data-rel="dialog" href="scriptures/matthew-28-18-20.html" id = "link2.matthew_28:18-20">Mateo 28:18-20</a>
+      </strong>
+      <ol>
+         <li>Mandamiento - Hacer discípulos (dado a todos).</li>
+         <li>¿Quién es un candidato para el bautísmo? Una persona que toma la decisión de ser un discípulo.</li>
+         <li>Necesitas a alguien que te discípule hacia la madurez en Cristo.</li>
+         <li>
+            ¡Ésta es la única manera de salvar el mundo!
+            <table cellpadding="3" cellspacing="0" border="1" style="margin-top: 1em">
+               <tr>
+                  <th>Año</th>
+                  <th>Predicador</th>
+                  <th>Discípulo</th>
+               </tr>
+               <tr>
+                  <td>1</td>
+                  <td>365</td>
+                  <td>2</td>
+               </tr>
+               <tr>
+                  <td>2</td>
+                  <td>730</td>
+                  <td>4</td>
+               </tr>
+               <tr>
+                  <td>3</td>
+                  <td>1,095</td>
+                  <td>8</td>
+               </tr>
+               <tr>
+                  <td>13</td>
+                  <td>4,745</td>
+                  <td>8,192</td>
+               </tr>
+               <tr>
+                  <td>33</td>
+                  <td>12,045</td>
+                  <td>Más de 10 billones - !el mundo entero!</td>
+               </tr>
+            </table>
+         </li>
+      </ol>
+   </li>
+</ol>
+<br>
+<p>
+   <strong>Preguntas de Conclusión:</strong>&nbsp;¿Soy un discípulo? ¿Soy un Cristiano?¿Soy Salvo?¿Qué necesit hacer para ser un discúpulo?
+</p>
+<br>
+<div data-role="footer" data-theme="b">
+	<div class="fpPageFooter">
+		<a href="./00_index.html" rel = "external" data-role="button" data-icon="home" data-iconpos="left" data-direction="reverse">Inicio</a>
+		<a href="./22_contact_us.html" rel = "external" data-role="button">Contáctanos</a>
+		<div class='social'>
+			<a href='http://www.facebook.com/sharer.php?u=http://usd21.org/m/' class='social_icon facebook' rel="nofollow"></a>
+			<a href='https://twitter.com/share?url=http://usd21.org/m/' class='social_icon twitter' rel="nofollow"></a>
+			<a class='social_icon googleplus' href="https://plusone.google.com/_/+1/confirm?hl=en&url=http://usd21.org/m/" rel="nofollow" ></a>
+			<div style='clear:both'></div>
+		</div>
+		<div class="fpPageFooterImages">
+			<a href="http://www.usd21.org/" rel="external"><img src="../../images/usd21_2012_logo.png" width="215" height="52" border= "0" alt="UpsideDown21"></a>
+			<br><img src="../../images/dm_2012_logo.png" width="215" height="26" border="0" alt="Discipleship Media">
+		</div> <!-- End div.fpPageFooterImages -->
+			&copy; 2017 Iglesias Cristianas Internacional (Movimientos de Discípulos Comprometidos)
+	</div> <!-- End div.fpPageFooter -->
+</div>
+
+</body>
+</html>
