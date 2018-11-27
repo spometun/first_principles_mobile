@@ -1,1 +1,1 @@
-LANGUAGES = ["en", "es", "ru", "sv", "et", "lt", "uk"]
+LANGUAGES = ["en", "es", "ru", "sv", "et", "lt", "uk", "ar"]
